@@ -1,0 +1,4 @@
+User registration with email confirmation and login
+===================================================
+
+Sending emails is done via event system. When new user is created, event ´user.created´ is fired which generates ´activation_code´ for that user and sends email for account confirmation to that user's email address.
